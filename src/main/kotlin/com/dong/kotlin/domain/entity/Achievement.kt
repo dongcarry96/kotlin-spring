@@ -7,9 +7,9 @@ import java.time.LocalDate
 class Achievement(
     title: String,
     description: String,
-    achievement: LocalDate?,
     host: String,
-    isActive: Boolean
+    isActive: Boolean,
+    achievedDate: LocalDate
 ) : BaseEntity() {
 
     @Id
